@@ -1,0 +1,41 @@
+.header {
+    height: 70px;
+    background-color: var(--primary); //cú pháp gọi lại biến ở phần root: var(tên biến)
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .header-item-left {
+        .create-button {
+            height: 50px;
+            font-size: 24px;
+            border: 2px solid white;
+            background-color: var(--primary);
+            color: wheat;
+            border-radius: 10px;
+            margin-left: 10px;
+        }
+    }
+
+    .header-item-right {
+        margin-right: 10px;
+
+        .search-input {
+            height: 50px;
+            font-size: 24px;
+            border: 2px solid white;
+            background-color: white;
+            margin-right: 10px;
+            border-radius: 10px;
+        }
+
+        .search-button {
+            height: 50px;
+            font-size: 24px;
+            border: 2px solid white;
+            background-color: var(--primary);
+            border-radius: 10px;
+            color: white;
+        }
+    }
+}

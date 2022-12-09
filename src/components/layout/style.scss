@@ -1,0 +1,9 @@
+.layout {
+    width: 100vw;
+    height: 100vh;
+
+    .body {
+        height: calc(100vh - 70px); //calc: cú pháp tính toán trong CSS
+        display: flex;
+    }
+}

@@ -1,0 +1,38 @@
+.todo-item {
+    height: 150px;
+    border: 1px solid var(--primary);
+    width: 200px;
+    padding: 15px;
+
+    .todo-item-title {
+        font-weight: bold;
+        margin-left: 5%;
+    }
+
+    .todo-item-creator {
+        margin-left: 5%;
+    }
+
+    .todo-item-status {
+        margin-left: 5%;
+        color: green;
+        font-weight: bold;
+    }
+
+    .todo-item-line {
+        border-bottom: 3px solid purple;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .todo-item-description-header {
+        font-weight: bold;
+        margin-left: 5%;
+    }
+
+    .todo-item-description-main {
+        margin-left: 5%;
+    }
+
+
+}
